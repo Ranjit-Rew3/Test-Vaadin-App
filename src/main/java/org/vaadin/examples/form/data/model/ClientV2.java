@@ -5,7 +5,6 @@ public class ClientV2 {
     private int id;
     private String firstName;
     private String lastName;
-    private byte[] citizenShipFile;
 
     private String email;
     private String mobileNumber;
@@ -80,14 +79,6 @@ public class ClientV2 {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
-    }
-
-    public byte[] getCitizenShipFile() {
-        return citizenShipFile;
-    }
-
-    public void setCitizenShipFile(byte[] citizenShipFile) {
-        this.citizenShipFile = citizenShipFile;
     }
 
     public String getEmail() {
